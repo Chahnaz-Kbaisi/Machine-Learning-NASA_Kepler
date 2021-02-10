@@ -26,6 +26,8 @@ To perform the SVM testing model the following steps were taken:
 Testing Data Score: 0.8947368421052632. 
 * GridSearchCV was used to to run hyperparameters and fit the model to the training set. Changing the parameters did not result in a better score: 0.8888044957393081
 
+![SVM](https://github.com/Chahnaz-Kbaisi/Machine-Learning-NASA_Kepler/blob/main/Images/SVM.png)
+
 # Model 2: Logistic Regression
 
 Logistic regression is a machine learning algorithm that uses datasets to predict a discrete set of outcomes or categories. 
@@ -36,5 +38,7 @@ The following steps were taken to perform the logistic regression testing model:
 * Then, I scaled the data using `StandardScaler`
 * The logistic regression yielded the following training and testing scores: Training Data Score: 0.887659736791913, Testing Data Score: 0.8895881006864989 
 * I applied the GridSearchCV to fit the model parameters, however, it did not improve the scores: 0.6631697581848216
+
+![Logistic Regression](https://github.com/Chahnaz-Kbaisi/Machine-Learning-NASA_Kepler/blob/main/Images/Logistic_Regression.png)
 
 Summary: Both the models appeared to provide similar training and testing data scores. Moreover, tuning the hyperparameters didn't have any affect on the models. In conclusion, the SVM model yielded marginally better scores than the Logistic Regression.   
