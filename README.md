@@ -12,3 +12,14 @@ The following were used to develop machine learning models:
 # Model 1: Testing Support Vector Classification (SVM)
 
 SVM is a supervised machine learning algorithm that analyze data for the purposes of classification into distinct categories and regression analysis.
+
+To perform the SVM testing model the following steps were taken:
+* I read the dataset into  pandas dataframe and dropped any null values
+* Then, I examined the dataframe `dtype` and investigated the significance of the columns. `koi_tce_plnt_num` was dropped from the dataframe.
+* I created the train test split using `koi_disposition` as the y-value
+* Then, the dataframe was scaled using the MinMaxScaler.
+* In the SVM training model I followed three steps:
+    1. Creating a SVM linear classifier
+    2. Fitting the data
+    3. Predicting the model
+    
