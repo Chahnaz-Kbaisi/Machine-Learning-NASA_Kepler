@@ -23,8 +23,10 @@ To perform the SVM testing model the following steps were taken:
     2. Fitting the data
     3. Predicting the model
 * To create a stronger model, the data was scaled and normalized, and adjusted to the unit variance. This reduced the dispersion of the data points for the model. Using Standardscaler to scale the data gave the following scores: 
-        `Training data score: 0.8916650772458516` 
+
+        `Training data score: 0.8916650772458516
         `Testing Data Score: 0.8947368421052632`
+        
 * GridSearchCV was used to to run hyperparameters and fit the model to the training set. Changing the parameters did not result in a better score: 0.8888044957393081
 
 Model Rank
@@ -40,8 +42,10 @@ The following steps were taken to perform the logistic regression testing model:
 * I created a train and test split using `koi_disposition` as the y-value
 * Then, I scaled the data using `StandardScaler`
 * The logistic regression yielded the following training and testing scores: 
-        `Training Data Score: 0.887659736791913` 
+
+        `Training Data Score: 0.887659736791913 
         `Testing Data Score: 0.8895881006864989` 
+        
 * I applied the GridSearchCV to fit the model parameters, however, it did not improve the scores: 0.6631697581848216
 
 Model Rank 
