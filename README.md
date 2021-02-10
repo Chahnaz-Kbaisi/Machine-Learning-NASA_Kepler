@@ -52,5 +52,5 @@ Model Rank
 
 ![Logistic Regression](https://github.com/Chahnaz-Kbaisi/Machine-Learning-NASA_Kepler/blob/main/Images/Logistic_Regression.png)
 
-#### Summary: 
+### Summary: 
 Both the models appeared to provide similar training and testing data scores. Moreover, tuning the hyperparameters didn't have any affect on the models. In conclusion, the SVM model yielded marginally better scores than the Logistic Regression.   
